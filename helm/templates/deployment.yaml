@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: hmedneybiz/bouncywalrus:{{ .Values.env.APP_VERSION }}
+          image: hmedneybiz/bouncywalrus:latest
           ports:
             - containerPort: 3000
           env:
