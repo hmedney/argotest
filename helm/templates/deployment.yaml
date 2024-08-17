@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: hmedneybiz/bouncywalrus:latest
+          image: hmedneybiz/app-helm:latest
           ports:
             - containerPort: 3000
           env:
